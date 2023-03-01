@@ -1,0 +1,15 @@
+{
+    "presets": ["@babel/preset-react"],
+    "plugins": [
+      ["module-resolver", {
+        "root": ["."],
+        "alias": {
+          "client": "./client",
+          "server": "./server",
+          "static":"./client/src/static",
+          "asset":"./client/src/asset",
+          "css":"./client/src/asset/css"
+        }
+      }]
+    ]
+  }
